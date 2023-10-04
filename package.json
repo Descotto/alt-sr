@@ -1,15 +1,26 @@
 {
-  "name": "alt-sr",
+  "name": "supply-request",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-calendar": "^4.6.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",
